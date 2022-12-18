@@ -1,5 +1,5 @@
 input.onGesture(Gesture.Shake, function () {
-    music.playSoundEffect(music.builtinSoundEffect(soundExpression.yawn), SoundExpressionPlayMode.InBackground)
+    music.playSoundEffect(music.builtinSoundEffect(soundExpression.yawn), SoundExpressionPlayMode.UntilDone)
     basic.clearScreen()
     x = 2
     y = 2
